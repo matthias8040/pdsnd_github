@@ -13,7 +13,7 @@ Describe what your project is about and what it does
 bikeshare.py
 chicago.csv
 new_york_city.csv
-wahington.csvb
+washington.csv
 
 ### Credits
 My project is forked from https://github.com/udacity/pdsnd_github.
