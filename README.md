@@ -10,10 +10,10 @@ Bikeshare Project
 Describe what your project is about and what it does
 
 ### Files used
-bikeshare.py
-chicago.csv
-new_york_city.csv
-washington.csv
+bikeshare.py,
+chicago.csv,
+new_york_city.csv,
+washington.csv,
 
 ### Credits
 My project is forked from https://github.com/udacity/pdsnd_github.
