@@ -18,7 +18,7 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     
-    print('\n*** Start select Filter ***')
+    # print('\n*** Start select Filter ***')
     # user input for city (chicago, new york city, washington)
     city = []
     cities = []
@@ -73,7 +73,7 @@ def get_filters():
     print("Selected month: {}.".format(month))
     print("Selected day: {}.".format(day))
     """
-    print('\n*** End select Filter ***')
+    # print('\n*** End select Filter ***')
     print('-'*40)
     return city, month, day
 
@@ -89,8 +89,8 @@ def load_data(city, month, day):
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
     """
-    print('_'*40)
-    print('\n*** Start load and filter Data ***')
+    # print('_'*40)
+    # print('\n*** Start load and filter Data ***')
     print("\nSelected city: {}.".format(city))
     print("Selected month: {}.".format(month))
     print("Selected day: {}.".format(day))
@@ -143,7 +143,7 @@ def load_data(city, month, day):
 
     #print('Filtered Data:')
     #print(df.head())  
-    print('\n*** End load and filter Data ***')
+    # print('\n*** End load and filter Data ***')
     print('_'*40)
     return df
 
@@ -151,7 +151,7 @@ def load_data(city, month, day):
 def time_stats(df,city, month, day):
     """Displays statistics on the most frequent times of travel."""
     
-    print('\nCalculating The Most Frequent Times of Travel...\n')    
+    # print('\nCalculating The Most Frequent Times of Travel...\n')    
     start_time = time.time()      
     print('Selectetd Filter:  - city: "{}"    - month: "{}"   - day: "{}".\n'.format(city, month, day))
     
@@ -188,7 +188,7 @@ def time_stats(df,city, month, day):
 def station_stats(df,city, month, day):
     """Displays statistics on the most popular stations and trip."""
 
-    print('\nCalculating The Most Popular Stations and Trip...\n')
+    # print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
     print('Selectetd Filter:  - city: "{}"    - month: "{}"   - day: "{}"".\n'.format(city, month, day))
 
@@ -218,7 +218,7 @@ def station_stats(df,city, month, day):
 def trip_duration_stats(df,city, month, day):
     """Displays statistics on the total and average trip duration."""
 
-    print('\nCalculating Trip Duration...\n')    
+    # print('\nCalculating Trip Duration...\n')    
     start_time = time.time()    
     print('Selectetd Filter:  - city: "{}"    - month: "{}"   - day: "{}"".\n'.format(city, month, day))
 
@@ -251,7 +251,7 @@ def trip_duration_stats(df,city, month, day):
 def user_stats(df,city, month, day):
     """Displays statistics on bikeshare users."""
 
-    print('\nCalculating User Stats...\n')
+    # print('\nCalculating User Stats...\n')
     start_time = time.time()
     print('Selectetd Filter:  - city: "{}"    - month: "{}"   - day: "{}"".\n'.format(city, month, day))
 
